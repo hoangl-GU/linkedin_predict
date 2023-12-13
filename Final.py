@@ -184,7 +184,7 @@ st.plotly_chart(fig)
 
 if prediction:
     st.write(f'Based on our model, we predict with {math.trunc(probability[0][1]*100)}% certainty, this person DOES uses LinkedIn.')
-else: st.write(f'Based on our model, predict with {math.trunc(probability[0][0]*100)}% certainty, this person DOES NOT use LinkedIn.')
+else: st.write(f'Based on our model, we predict with {math.trunc(probability[0][0]*100)}% certainty, this person DOES NOT use LinkedIn.')
 
 
 
